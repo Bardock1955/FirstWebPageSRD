@@ -4,3 +4,23 @@
 .show{
     display:block;
 }
+
+h1{
+    color: #2471A3;
+
+}
+p{
+
+    font-size: 125%;
+    font-family:"Century Schoolbook";
+}
+
+#archives{
+    font-size: 115%;
+    font-family: century;
+
+}
+
+td{
+    font-family:"Century Schoolbook";
+}
