@@ -24,3 +24,75 @@ p{
 td{
     font-family:"Century Schoolbook";
 }
+
+
+#img-info{
+    padding: 0px 0px 0px;
+    width: 500px;
+    height: 151px;
+}
+
+@media only screen and (min-width: 280px) {
+    #img-info{
+        padding: 0px 20px 0px;
+        width: 125px;
+        height: 37.75px;
+    }
+    
+    p{
+        font-size: 50%;
+    }
+
+
+}
+
+@media only screen and (min-width: 360px) {
+    #img-info{
+        padding: 0px 20px 0px;
+        width: 200px;
+        height: 50px;
+    }
+    
+    p{
+
+        font-size: 125%;
+        font-family:"Century Schoolbook";
+    }
+
+
+}
+
+
+@media only screen and (min-width: 375px) {
+    #img-info{
+        padding: 0px 20px 0px;
+        width: 250px;
+        height: 75.5px;
+    }
+    
+    p{
+
+        font-size: 125%;
+        font-family:"Century Schoolbook";
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #img-info{
+        padding: 0px 0px 0px;
+        width: 500px;
+        height: 151px;
+    }
+
+    p{
+
+        font-size: 125%;
+        font-family:"Century Schoolbook";
+    }
+
+}
+
+
+
+
