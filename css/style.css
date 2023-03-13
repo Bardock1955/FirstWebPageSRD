@@ -26,11 +26,11 @@ td{
 }
 
 
-#img-info{
+/*#img-info{
     padding: 0px 0px 0px;
     width: 500px;
     height: 151px;
-}
+}*/
 
 @media only screen and (min-width: 280px) {
     #img-info{
