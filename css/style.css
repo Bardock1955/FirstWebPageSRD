@@ -14,18 +14,18 @@ h1{
 p{
 
     font-size: 125%;
-    font-family:"Century Schoolbook";
+    font-family:"Comic Sans MS";
     padding: 0px 35px 0px;
 }
 
 #archives{
     font-size: 115%;
-    font-family: century;
+    font-family: "Comic Sans MS";
 
 }
 
 td{
-    font-family:"Century Schoolbook";
+    font-family:"Comic Sans MS";
 }
 
 header{
@@ -46,6 +46,7 @@ header{
     padding: 0px 35px 0px;
     text-decoration: none;
     font-size: 145%;
+    font-family: "Comic Sans MS";
 
 }
 
@@ -53,6 +54,8 @@ header{
     display: inline-block;
     text-align: center;
 }
+
+
 
 
 @media only screen and (min-width: 280px) {
@@ -93,7 +96,7 @@ header{
     p{
 
         font-size: 125%;
-        font-family:"Century Schoolbook";
+        font-family:"Comic Sans MS";
     }
 
 
@@ -116,7 +119,7 @@ header{
     p{
 
         font-size: 125%;
-        font-family:"Century Schoolbook";
+        font-family:"Comic Sans MS";
     }
 
 }
@@ -137,7 +140,7 @@ header{
     p{
 
         font-size: 175%;
-        font-family:"Century Schoolbook";
+        font-family:"Comic Sans MS";
     }
 
 }
