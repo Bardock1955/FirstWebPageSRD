@@ -24,6 +24,9 @@ h1{
     background:  linear-gradient( #48C9B0, #4861C9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+
+
 }
 
 h2{
@@ -43,7 +46,7 @@ h2{
 
 p{
     color: white;
-    font-size: 125%;
+    font-size: 225%;
     font-family: 'Roboto', sans-serif;
     padding: 0px 35px 0px;
     
@@ -153,7 +156,11 @@ table{
     align-items: center;
     display: flex;
     border: none;
+    border-collapse: collapse;
+    max-width: 100%;
+    overflow-x: auto;
 }
+
 
 div{
     border-radius:15px;
@@ -174,6 +181,12 @@ div{
     border-radius:5px;
 }
 
+#table-Image{
+    width: 250px;
+    height: 237.5px;
+}
+
+
 
 @media only screen and (min-width: 280px) {
     #img-info{
@@ -193,6 +206,44 @@ div{
         font-size: 75%;
     }
 
+    table{
+
+        justify-content: left;
+        display: flex;
+
+        min-width: 0%;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .Portafolios{
+        background: #472847;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 125px;
+        height: 150px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+    .Portafolios:hover{
+        background: #3C212F;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 125px;
+        height: 150px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
 
 }
 
@@ -202,6 +253,14 @@ div{
         width: 200px;
         height: 50px;
     }
+
+    h1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
 
     #heisenburg{
         padding: 0px 20px 0px;
@@ -216,6 +275,44 @@ div{
         font-family: 'Roboto', sans-serif;
     }
 
+    table{
+        justify-content: left;
+        display: flex;
+
+        min-width: 0%;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .Portafolios{
+        background: #472847;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 150px;
+        height: 125px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+
+    .Portafolios:hover{
+        background: #3C212F;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 150px;
+        height: 125px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
 
 }
 
@@ -239,6 +336,45 @@ div{
         font-family: 'Roboto', sans-serif;
     }
 
+    table{
+        justify-content: left;
+        display: flex;
+
+        min-width: 0%;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .Portafolios{
+        background: #472847;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 175px;
+        height: 100px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+
+    .Portafolios:hover{
+        background: #3C212F;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 175px;
+        height: 100px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -260,8 +396,106 @@ div{
         font-family: 'Roboto', sans-serif;
     }
 
+    table{
+        justify-content: left;
+        display: flex;
+
+        min-width: 0%;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .Portafolios{
+        background: #472847;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 200px;
+        height: 75px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+
+    .Portafolios:hover{
+        background: #3C212F;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 200px;
+        height: 75px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+
 }
 
+@media only screen and (min-width: 1200px) {
+    #img-info{
+        padding: 0px 0px 0px;
+        width: 500px;
+        height: 151px;
+    }
 
+    #heisenburg{
+        padding: 0px 0px 0px;
+        width: 500px;
+        height: 151px;
+    }
 
+    p{
+        color: white;
+        font-size: 225%;
+        font-family: 'Roboto', sans-serif;
+        padding: 0px 35px 0px;
+    }
 
+    table{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: none;
+        border-collapse: collapse;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .Portafolios{
+        background: #472847;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 250px;
+        height: 50px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+
+    .Portafolios:hover{
+        background: #3C212F;
+        font-family: 'Roboto',sans-serif;
+        font-size: 150%;
+        color: white;
+        width: 250px;
+        height: 50px;
+        text-decoration: none;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius:5px;
+    }
+
+}
