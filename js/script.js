@@ -9,10 +9,10 @@ function toggleText(){
 
 
     if(hideText.classList.contains('show')){
-        hideText_btn.innerHTML='Portafolios ʌ';
+        hideText_btn.innerHTML='Cerrar Portafolios';
     }else{
         
-        hideText_btn.innerHTML='Portafolios v';
+        hideText_btn.innerHTML='Abrir Portafolios';
     }
 
 }
